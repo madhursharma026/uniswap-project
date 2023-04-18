@@ -1,0 +1,94 @@
+.animationStyle1 {
+    background: #f2ecfd;
+}
+
+.animationStyle2 {
+    background: white;
+}
+
+.headerNavbarLinks {
+    text-decoration: none;
+    margin-top: 10px;
+    font-size: 17px;
+    font-weight: 500;
+    margin-left: 15px;
+    color: #80859E;
+}
+
+.headerNavbarLinks:hover {
+    text-decoration: none;
+    margin-top: 10px;
+    font-size: 17px;
+    font-weight: 500;
+    margin-left: 15px;
+    color: #80859E;
+}
+
+.sectionTitle {
+    font-size: calc(35px + 1.25vw);
+}
+
+.sectionBody {
+    font-size: calc(15px + 1vw);
+    line-height: 1.5;
+    color: #9DA3BA;
+}
+
+.btnStyle {
+    background: linear-gradient(93.06deg, rgb(255, 0, 199) 2.66%, rgb(255, 159, 251) 98.99%);
+    border: none;
+    color: rgb(255, 255, 255);
+    transition: all 250ms ease 0s;
+    font-size: 20px;
+    border-radius: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.btnStyle:hover {
+    box-shadow: rgb(255, 0, 199) 0px 0px 16px 0px;
+    color: rgb(255, 255, 255);
+}
+
+.colletWalletBtnStyle {
+    background: #F7DDED;
+    color: #F31D92;
+    font-weight: 600;
+    font-size: 24px;
+    border-radius: 15px;
+    border: none;
+    height: 50px;
+}
+
+@media (min-width: 991px) {
+    .sectionTitle {
+        max-width: 700px;
+    }
+
+    .sectionBody {
+        max-width: 650px;
+    }
+
+    .rightSideContent {
+        float: right;
+        width: 28rem;
+    }
+
+    .headerAfterLGScrn{
+        display: none;
+    }
+
+    .menuBtn {
+        float: right;
+      }
+}
+
+@media (max-width: 992px) {
+    .headerBeforeLGScrn{
+        display: none;
+    }
+
+    .headerAfterLGScrn{
+        display: block;
+    }
+}
